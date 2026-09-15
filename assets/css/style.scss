@@ -1,13 +1,11 @@
 ---
 ---
 @import "{{ site.theme }}";
-
-body {
-  background-color: #121212; 
-  color: #e0e0e0;           
-  font-family: 'Inter', sans-serif;
+body, html, .site-header, .site-footer, .page-content {
+  background-color: #121212 !important;
+  color: #e0e0e0 !important;
 }
 
-a {
-  color: #4da6ff;        
+a, a:visited {
+  color: #4da6ff !important;
 }

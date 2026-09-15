@@ -1,9 +1,23 @@
 ---
 ---
+
+$background-color: #1a1a2e;
+$text-color: #e0e0e0;
+$brand-color: #e94560;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+$base-font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
 @import "{{ site.theme }}";
 
-:root {
-  --background-color: #121212;
-  --text-color: #e0e0e0;
-  --link-color: #4da6ff;
+body {
+  background: linear-gradient(135deg, #1e1e2f 0%, #11101d 100%) !important;
+  
+  color: #e0e0e0 !important;
+  font-family: 'Inter', sans-serif !important;
+}
+
+a {
+  color: #ff758c !important;
 }

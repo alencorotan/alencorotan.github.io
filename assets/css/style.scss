@@ -1,11 +1,9 @@
 ---
 ---
 @import "{{ site.theme }}";
-body, html, .site-header, .site-footer, .page-content {
-  background-color: #121212 !important;
-  color: #e0e0e0 !important;
-}
 
-a, a:visited {
-  color: #4da6ff !important;
+:root {
+  --background-color: #121212;
+  --text-color: #e0e0e0;
+  --link-color: #4da6ff;
 }
